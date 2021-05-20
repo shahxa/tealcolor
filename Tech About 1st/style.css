@@ -1,0 +1,145 @@
+nav{
+    background-color:darkcyan;
+}
+ul li a{
+    /* color:#fff; */
+}
+#mynav{
+    font-weight: 600;
+}
+#mysearch{
+    outline:none;
+    border:none;
+    border-radius:3px ;
+}
+#mybtn{
+    padding:4px 10px;
+    background-color: teal;
+    font-weight:600;
+     color:white;
+     border: double 2px teal; 
+}
+#mybtn:hover{
+    background:none;
+    
+
+}
+.show-case
+{
+    background: url('flower.jpg') no-repeat 0 0;
+    background-size: cover;
+    background-position:center; 
+    /* background-attachment: fixed; */
+    
+}
+.Tech_About{
+    color:teal;
+}
+.banner-title{
+    margin-top:10rem;
+}
+.banner-title .heading{
+    padding:10px 0px;
+    background:#fff;
+    margin-bottom:0px;
+}
+.banner-title  p {
+    margin:0px;
+    background:teal;
+}
+#section
+{
+    margin:70px 0px;
+}
+
+
+
+#smh::after{
+    background: darkcyan;
+    content:"";
+    display:block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+    
+}
+.ourservices{
+    background:darkcyan;
+}
+.ourservices:hover{
+    background-image: linear-gradient(teal,white);
+}
+.sbtan{
+    padding:5px 5px;
+    border:double 2px  darkcyan;
+    background: teal;
+}
+.sbtan:hover
+{   
+        font-weight: 600;
+        background:none;
+
+    }
+
+.ousr::after
+{
+    background:teal;
+    width:12rem;
+    content:"";
+    height:3px;
+    display:block;
+    margin:8px auto;
+}
+.ousr::before
+{
+    background:teal;
+    width:12rem;
+    content:"";
+    height:3px;
+    display:block;
+    margin:5px auto;
+}
+
+}
+#Envi {
+    color:#007bff;
+}
+.testi{
+    background:url('testimonial.jpg') no-repeat 0 0;
+    background-size:  cover;
+    /* background-position: center; */
+    position:relative;
+    padding: 50px 0;
+}
+.testi::before{
+    background:rgba(52,73,94,0.7);
+    content: "";
+    position:relative;
+    top:0;
+    width:100%;
+    height:100%;
+}
+#its-photo{
+    border:2px black;
+    border-radius: 100px;
+}
+
+a:hover{
+    color:teal;
+    font-weight: 700;
+}
+.mblemail{
+    line-height: 50px;
+}
+#fcolor{
+    color:teal
+}
+.footer
+{
+    background:teal;
+    padding:10px 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+}

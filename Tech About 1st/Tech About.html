@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap project practice</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-fixed-top" id="mynav">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><span><i class="fab fa-accusoft fa-2x mr-2"></i></span>Tech About</a
+        >
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#my-nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="my-nav">
+          <ul class="navbar-nav mt-3 m-auto">
+            <li class="nav-item"><a href="" class="nav-link">| Home</a></li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> Testimonial</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link"> Gallery</a></li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> contact us</a>
+            </li>
+          </ul>
+          <form action="#" class="form-inline d-flex">
+            <div class="form-group">
+              <input
+                type="text"
+                name=""
+                id="mysearch"
+                class="form-control-sm"
+              />
+              <button class="btn ml-2 my-2 my-sm-0" id="mybtn">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- This is our show-case -->
+    <div class="show-case">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-lg-6">
+            <div class="banner-title">
+              <h2 class="heading text-center">
+                Welcome to <span class="Tech_About">Tech About</span>
+              </h2>
+              <p class="lead text-white text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                placeat itaque aspernatur culpa quaerat ad, voluptas facere
+                totam odio atque!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This is our after the show-case -->
+
+    <div class="some-headings" id="section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center mb-5" id="smh">Our Projects Based On</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <span class="prj"><i class="fab fa-html5 fa-3x"></i></span>
+            <h5>HTML</h5>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur magni ipsam quaerat. Atque, labore officia?
+            </p>
+          </div>
+          <div class="col-sm-4 text-center">
+            <span class="prj"><i class="fab fa-css3-alt fa-3x"></i></span>
+            <h5>CSS</h5>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur magni ipsam quaerat. Atque, labore officia?
+            </p>
+          </div>
+          <div class="col-sm-4 text-center">
+            <span class="prj"><i class="fab fa-js fa-3x"></i></span>
+            <h5>Js</h5>
+            <p class="">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur magni ipsam quaerat. Atque, labore officia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This is the section of our Services -->
+    <div class="our_services" id="section">
+      <div class="container">
+        <div class="row">
+          <div class="col mb-5">
+            <h2 class="text-center ousr">Our services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <div class="card ourservices">
+              <div class="card-img-top text-center">
+                <img
+                  src="web development services.png"
+                  alt=""
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Web Development</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Blanditiis recusandae amet quo dolores, vitae tenetur!
+                </p>
+                <button class="btn sbtan">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card ourservices">
+              <div class="card-img-top text-center">
+                <img
+                  src="Webhost service.png"
+                  alt=""
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Web Hosting</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Blanditiis recusandae amet quo dolores, vitae tenetur!
+                </p>
+                <button class="btn sbtan">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card ourservices">
+              <div class="card-img-top text-center">
+                <img
+                  src="Mobile service.png"
+                  alt=""
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">App Development</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Blanditiis recusandae amet quo dolores, vitae tenetur!
+                </p>
+                <button class="btn sbtan">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This is the section of the Environment -->
+    <div class="Recent-news" id="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center" id="smh">Environment</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 py-3 text-center">
+            <img src="Number1.jpg" alt="" width="250" height="150" />
+            <h5>Client Conversation</h5>
+            <div class="post-date">
+              <span class="mr-2"><i class="far fa-calendar-alt"></i></span>july
+              30,2020
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quo rerum mollitia possimus, eius praesentium.
+            </p>
+            <a href="" class="readmore"
+              >Read More<span class="text-blue ml-2"
+                ><i class="fas fa-angle-double-right"></i></span
+            ></a>
+          </div>
+          <div class="col-md-3 py-3 text-center">
+            <img src="Number2.jpg" alt="" width="250" height="150" />
+            <h5 id="Envi">Searching Activities</h5>
+            <div class="post-date">
+              <span class="mr-2"><i class="far fa-calendar-alt"></i></span>july
+              30,2020
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quo rerum mollitia possimus, eius praesentium.
+            </p>
+            <a href="" class="readmore"
+              >Read More<span class="text-blue ml-2"
+                ><i class="fas fa-angle-double-right"></i></span
+            ></a>
+          </div>
+          <div class="col-md-3 py-3 text-center">
+            <img src="Number3.jpg" alt="" width="250" height="150" />
+            <h5 id="Envi">important conversation</h5>
+            <div class="post-date">
+              <span class="mr-2"><i class="far fa-calendar-alt"></i></span>july
+              30,2020
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quo rerum mollitia possimus, eius praesentium.
+            </p>
+            <a href="" class="readmore"
+              >Read More<span class="text-blue ml-2"
+                ><i class="fas fa-angle-double-right"></i></span
+            ></a>
+          </div>
+          <div class="col-md-3 py-3 text-center">
+            <img src="Number4.jpg" alt="" width="250" height="150" />
+            <h5 id="Envi">programmer during coding</h5>
+            <div class="post-date">
+              <span class="mr-2"><i class="far fa-calendar-alt"></i></span>july
+              15,2020
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quo rerum mollitia possimus, eius praesentium.
+            </p>
+            <a href="" class="readmore"
+              >Read More<span class="text-blue ml-2"
+                ><i class="fas fa-angle-double-right"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This section is the testimonial  -->
+    <div class="testi" id="section">
+      <div class="container text-center text-white">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center py-5">Testimonials</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="shahzaib.jpg"
+              alt=""
+              width="150"
+              height="150"
+              id="its-photo"
+            />
+            <h4>shahzaib web Developer</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+              nihil dolor repellat ipsa repellendus. Deserunt.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="Mohsin.jpeg"
+              alt=""
+              width="150"
+              height="150"
+              id="its-photo"
+            />
+            <h4>Mohsin web Developer</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+              nihil dolor repellat ipsa repellendus. Deserunt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This is the section of our contact -->
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col py-5">
+            <h2 class="text-center">Contact Information</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 text-center py-5">
+            <h3 id="fcolor" class="">
+              <i class="fab fa-accusoft fa-2x mr-2"></i>Tech About
+            </h3>
+            <p>
+              Tech About software house is located in opposite direction of Arfa
+              Kareem tower.This is based on the international web and
+              Application developer and designer
+            </p>
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <h3 id="fcolor" class="mb-3">Quick LInks</h3>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+              <li class="nav-item">
+                <a href="" class="nav-link">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <h3 id="fcolor" class="mb-3">Contact us</h3>
+            <div class="mblemail">
+              <span class="d-block"
+                ><i class="fas fa-mobile-alt fa-2x mr-3"></i>0308 4439454</span
+              >
+              <span> 0300 1112986</span>
+              <div>
+                <i class="far fa-envelope fa-2x mr-3"></i
+                ><a href="">M&S@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center py-5">
+            <h3 id="fcolor" class="mb-3">Address</h3>
+            <span class="text-center"
+              ><i class="fas fa-map-marker-alt fa-3x m-3"></i
+            ></span>
+            <div class="address">
+              <h6>
+                office no 15 , guldberg 3 near to arfa kareem tower Gazi road
+                Lahore
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer text-center align-items">
+      <p>Tech About &copy; All rights Reserved , 2021</p>
+    </div>
+  </body>
+</html>
